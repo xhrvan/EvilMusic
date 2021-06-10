@@ -1,11 +1,11 @@
-<h1 align="centre">SHASAMUSIC V1.0 🎵</h1>
+<h1 align="centre">EVILMUSIC 🎵</h1>
 
 ### A bot that can play music on telegram group's voice call
 #### BASED ON [CALLSMUSIC](https://github.com/callsmusic/callsmusic)
-# Available on telegram as @Shasa_Robot
+# Available on telegram as @Evil_Xobot
 
 <p align="center">
-  <img src="https://telegra.ph/file/38cf0d094b8b0c532eb07.jpg">
+  <img src="https://telegra.ph/file/401a556c981110e0f8ef4.jpg">
 </p>
 
 <h2> Whats new 🔥 </h2>
@@ -51,23 +51,17 @@
 You can set Channel Music Play like this:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add @DaisyXBot as Channel admin with full perms
+ 3. Add @Evil_Xobot as Channel admin with full perms
  4. Send /userbotjoin in Channel
  5. Simply send commands in your group.
 
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MdNoor786/ShasaMusic-)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shrvan42/EvilMusic)
 
-Use [@DaisyXStringGeneratorBot](https://t.me/DaisyXStringGeneratorBot) to get pyrogram string session or [repl](https://repl.it/@SpEcHiDe/GenerateStringSession)
 
-### Credits
-#### Special Credits
-- [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
+This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork EvilMusic won't exist. 
+EvilMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @Evil_Xobot users
 
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork ShasaMusic won't exist. 
-DaisyXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @Missshasa_bot users
-
- PyTgCalls
-- [Original Repo owners](https://github.com/suprojects/CallsMusic)
+ 
