@@ -18,7 +18,7 @@
 import asyncio
 from os import path
 
-from ShasaMusic.helpers.errors import FFmpegReturnCodeError
+from EvilMusic.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:
