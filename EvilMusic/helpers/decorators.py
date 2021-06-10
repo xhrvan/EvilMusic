@@ -20,8 +20,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from ShasaMusic.config import SUDO_USERS
-from ShasaMusic.helpers.admins import get_administrators
+from EvilMusic.config import SUDO_USERS
+from EvilMusic.helpers.admins import get_administrators
 
 
 def errors(func: Callable) -> Callable:
