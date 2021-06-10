@@ -1,4 +1,4 @@
-# Shasamusic (Telegram bot project )
+# Evilmusic (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -35,8 +35,8 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from ShasaMusic.config import DURATION_LIMIT
-from ShasaMusic.modules.play import arq
+from EvilMusic.config import DURATION_LIMIT
+from EvilMusic.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
