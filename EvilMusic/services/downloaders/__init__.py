@@ -1,1 +1,1 @@
-from ShasaMusic.services.downloaders.youtube import download
+from EvilMusic.services.downloaders.youtube import download
