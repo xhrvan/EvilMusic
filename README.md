@@ -1,8 +1,6 @@
-<h1 align="centre">EVILMUSIC 🎵</h1>
+<h1 align="centre"> 🎵 EVIL MUSIC 🎵</h1>
 
-### A bot that can play music on telegram group's voice call
-#### BASED ON [CALLSMUSIC](https://github.com/callsmusic/callsmusic)
- Available on telegram as [Evil Xobot](https://t.me/evil_xobot)
+Available on telegram as [Evil Xobot](https://t.me/evil_xobot)
 
 <p align="center">
   <img src="https://telegra.ph/file/401a556c981110e0f8ef4.jpg">
