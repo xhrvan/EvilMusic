@@ -1,4 +1,4 @@
-from ShasaMusic.services.callsmusic.queues.queues import (
+from EvilMusic.services.callsmusic.queues.queues import (
     clear,
     get,
     is_empty,
