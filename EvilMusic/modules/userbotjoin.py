@@ -1,4 +1,4 @@
-# Shasamusic (Telegram bot project )
+# Evilmusic (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -18,9 +18,9 @@
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from ShasaMusic.helpers.decorators import authorized_users_only, errors
-from ShasaMusic.services.callsmusic.callsmusic import client as USER
-from ShasaMusic.config import SUDO_USERS
+from EvilMusic.helpers.decorators import authorized_users_only, errors
+from EvilMusic.services.callsmusic.callsmusic import client as USER
+from EvilMusic.config import SUDO_USERS
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only
@@ -51,7 +51,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @Shasahelper to your Group and try again</b>",
+            "\n\nOr manually add @Evil_Xobot_Assistant to your Group and try again</b>",
         )
         return
     await message.reply_text(
@@ -112,7 +112,7 @@ async def addcchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ShasaMusic"
+        user.first_name = "EvilMusic"
 
     try:
         await USER.join_chat(invitelink)
@@ -126,7 +126,7 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @Shasahelper to your Group and try again</b>",
+            "\n\nOr manually add @Evil_Xobot_Assistant to your Group and try again</b>",
         )
         return
     await message.reply_text(
