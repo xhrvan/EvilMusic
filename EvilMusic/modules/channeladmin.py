@@ -16,15 +16,15 @@
 
 
 from asyncio.queues import QueueEmpty
-from ShasaMusic.config import que
+from EvilMusic.config import que
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from ShasaMusic.function.admins import set
-from ShasaMusic.helpers.channelmusic import get_chat_id
-from ShasaMusic.helpers.decorators import authorized_users_only, errors
-from ShasaMusic.helpers.filters import command, other_filters
-from ShasaMusic.services.callsmusic import callsmusic
+from EvilMusic.function.admins import set
+from EvilMusic.helpers.channelmusic import get_chat_id
+from EvilMusic.helpers.decorators import authorized_users_only, errors
+from EvilMusic.helpers.filters import command, other_filters
+from EvilMusic.services.callsmusic import callsmusic
 
 
 
