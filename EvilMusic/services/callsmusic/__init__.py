@@ -1,2 +1,2 @@
-from ShasaMusic.services.callsmusic import queues
-from ShasaMusic.services.callsmusic.callsmusic import pytgcalls, run
+from EvilMusic.services.callsmusic import queues
+from EvilMusic.services.callsmusic.callsmusic import pytgcalls, run
