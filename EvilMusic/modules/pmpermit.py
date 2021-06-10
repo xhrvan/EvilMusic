@@ -1,4 +1,4 @@
-# Shasamusic (Telegram bot project )
+# Evilmusic (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShasaMusic.services.callsmusic.callsmusic import client as USER
+from EvilMusic.services.callsmusic.callsmusic import client as USER
 
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
