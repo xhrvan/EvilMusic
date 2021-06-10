@@ -18,8 +18,8 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
-from ShasaMusic.config import API_HASH, API_ID, SESSION_NAME
-from ShasaMusic.services.callsmusic import queues
+from EvilMusic.config import API_HASH, API_ID, SESSION_NAME
+from EvilMusic.services.callsmusic import queues
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
 pytgcalls = PyTgCalls(client)
