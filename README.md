@@ -60,8 +60,3 @@ You can set Channel Music Play like this:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shrvan42/EvilMusic)
 
-
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork EvilMusic won't exist. 
-EvilMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @Evil_Xobot users
-
- 
