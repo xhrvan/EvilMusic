@@ -3,4 +3,4 @@ from os import listdir, mkdir
 if "raw_files" not in listdir():
     mkdir("raw_files")
 
-from ShasaMusic.services.converter.converter import convert
+from EvilMusic.services.converter.converter import convert
