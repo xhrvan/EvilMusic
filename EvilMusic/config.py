@@ -1,4 +1,4 @@
-# ShasaMUSIC- Telegram bot project
+# EvilMUSIC- Telegram bot project
 # Copyright (C) 2021  Roj Serbest
 # Copyright (C) 2021  Inuka Asith
 # This program is free software: you can redistribute it and/or modify
@@ -27,16 +27,16 @@ que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "LionXupdates")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/693fda7ab2f4be48856c8.jpg")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "The_Evil_Network")
+BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/401a556c981110e0f8ef4.jpg")
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Shasahelper")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "ShasaSupport")
-PROJECT_NAME = getenv("PROJECT_NAME", "ShasaMusic v4")
-SOURCE_CODE = getenv("SOURCE_CODE", "github.com/TeamLion-X/Shasamusic")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "EVIL_XOBOT_ASSISTANT")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "EVIL_BOT_SUPPORT")
+PROJECT_NAME = getenv("PROJECT_NAME", "EvilMusic")
+SOURCE_CODE = getenv("SOURCE_CODE", "github.com/shrvan42/Evilmusic")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 PMPERMIT = getenv("PMPERMIT", None)
