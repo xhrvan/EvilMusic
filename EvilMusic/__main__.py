@@ -31,7 +31,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="ShasaMusic.modules"),
+    plugins=dict(root="EvilMusic.modules"),
 )
 
 bot.start()
