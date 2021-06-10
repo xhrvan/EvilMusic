@@ -20,8 +20,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from ShasaMusic.config import DURATION_LIMIT
-from ShasaMusic.helpers.errors import DurationLimitError
+from EvilMusic.config import DURATION_LIMIT
+from EvilMusic.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio[ext=m4a]",
