@@ -1,4 +1,4 @@
-# Shasamusic (Telegram bot project)
+# Evilmusic (Telegram bot project)
 # Copyright (C) 2021  Inukaasith
 # Copyright (C) 2021  TheHamkerCat (Python_ARQ)
 # This program is free software: you can redistribute it and/or modify
@@ -32,29 +32,29 @@ from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
-from ShasaMusic.modules.play import generate_cover
-from ShasaMusic.modules.play import arq
-from ShasaMusic.modules.play import cb_admin_check
-from ShasaMusic.modules.play import transcode
-from ShasaMusic.modules.play import convert_seconds
-from ShasaMusic.modules.play import time_to_seconds
-from ShasaMusic.modules.play import changeImageSize
-from ShasaMusic.config import BOT_NAME as bn
-from ShasaMusic.config import DURATION_LIMIT
-from ShasaMusic.config import UPDATES_CHANNEL as updateschannel
-from ShasaMusic.config import que
-from ShasaMusic.function.admins import admins as a
-from ShasaMusic.helpers.errors import DurationLimitError
-from ShasaMusic.helpers.decorators import errors
-from ShasaMusic.helpers.admins import get_administrators
-from ShasaMusic.helpers.channelmusic import get_chat_id
-from ShasaMusic.helpers.decorators import authorized_users_only
-from ShasaMusic.helpers.filters import command, other_filters
-from ShasaMusic.helpers.gets import get_file_name
-from ShasaMusic.services.callsmusic import callsmusic, queues
-from ShasaMusic.services.callsmusic.callsmusic import client as USER
-from ShasaMusic.services.converter.converter import convert
-from ShasaMusic.services.downloaders import youtube
+from EvilMusic.modules.play import generate_cover
+from EvilMusic.modules.play import arq
+from EvilMusic.modules.play import cb_admin_check
+from EvilMusic.modules.play import transcode
+from EvilMusic.modules.play import convert_seconds
+from EvilMusic.modules.play import time_to_seconds
+from EvilMusic.modules.play import changeImageSize
+from EvilMusic.config import BOT_NAME as bn
+from EvilMusic.config import DURATION_LIMIT
+from EvilMusic.config import UPDATES_CHANNEL as updateschannel
+from EvilMusic.config import que
+from EvilMusic.function.admins import admins as a
+from EvilMusic.helpers.errors import DurationLimitError
+from EvilMusic.helpers.decorators import errors
+from EvilMusic.helpers.admins import get_administrators
+from EvilMusic.helpers.channelmusic import get_chat_id
+from EvilMusic.helpers.decorators import authorized_users_only
+from EvilMusic.helpers.filters import command, other_filters
+from EvilMusic.helpers.gets import get_file_name
+from EvilMusic.services.callsmusic import callsmusic, queues
+from EvilMusic.services.callsmusic.callsmusic import client as USER
+from EvilMusic.services.converter.converter import convert
+from EvilMusic.services.downloaders import youtube
 
 chat_id = None
 
@@ -624,7 +624,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ShasaMusic"
+        user.first_name = "EvilMusic"
     usar = user
     wew = usar.id
     try:
@@ -755,7 +755,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ShasaMusic"
+        user.first_name = "EvilMusic"
     usar = user
     wew = usar.id
     try:
@@ -789,7 +789,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @Shasamusic to your Group and try again</b>",
+                        "\n\nOr manually add @Evil_Xobot_Assistant to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
