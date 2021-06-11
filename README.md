@@ -58,3 +58,8 @@ You can set Channel Music Play like this:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shrvan42/EvilMusic)
 
+<h3 align="center">💫String Session💫</h3>
+
+ [![Run on Repl.it](https://repl.it/badge/github/kaal0408/KAAlUserbot&theme=midnight-purple)](https://repl.it/@SpEcHiDe/GenerateStringSession)
+
+
