@@ -1,4 +1,4 @@
-# EvilMusic (Telegram bot project )
+# EvilMusic .(Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -23,7 +23,7 @@ class Messages():
 f"""
 **Hey 👋 Welcome back to {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+⚪️ {PROJECT_NAME} can play music 🎵 in your group's voice chat as well as channel voice chats
 
 ⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 """,
