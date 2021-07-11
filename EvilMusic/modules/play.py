@@ -548,6 +548,9 @@ async def play(_, message: Message):
                     InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
                     InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
                 ],
+                [
+                    InlineKeyboardButton(text="💝 Support", url="t.me/tgxbotz_chat"),
+                ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
             ]
         )
@@ -591,6 +594,9 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
                     InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                ],
+                [
+                    InlineKeyboardButton(text="💝 Support", url="t.me/tgxbotz_chat"),
                 ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
             ]
